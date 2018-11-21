@@ -1,4 +1,10 @@
+#!/bin/bash
+set -e
+
 REPO_DIR="ira-employee-portal-prune-2"
+
+# Ensure we start in the right directory
+cd ~/Projects/antiblanks
 
 # Clone the frontend repo
 git clone git@gitlab.internal.iraservices.io:ira/frontend.git $REPO_DIR
