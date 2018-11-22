@@ -36,7 +36,7 @@ git filter-branch \
         s/\ttests\/employee-portal\/(.*)/\tEP\/tests\/\1/; \
         print;" \
       | GIT_INDEX_FILE=$GIT_INDEX_FILE.new git update-index --index-info \
-    && mv "$GIT_INDEX_FILE.new" "$GIT_INDEX_FILE"' \
+        && mv "$GIT_INDEX_FILE.new" "$GIT_INDEX_FILE"' \
   --tag-name-filter cat \
   --prune-empty \
   -- --all
@@ -45,7 +45,7 @@ git filter-branch \
 git filter-branch \
   -f \
   --prune-empty \
-  --subdirectory-filter ep \
+  --subdirectory-filter EP \
   --tag-name-filter cat \
   -- --all
 
