@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-WORKING_DIR="~/Projects/antiblanks"
+WORKING_DIR="/Users/joelove/Projects/antiblanks"
 REPO_NAME="ira-employee-portal-prune"
 
 # Ensure we start in the correct directory
