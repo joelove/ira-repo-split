@@ -38,4 +38,4 @@ git filter-branch \
   -- --all
 
 # Restructure repository contents
-source $SCRIPT_DIR/move-files.sh
+source $SCRIPT_DIR/rewrite-path-references.sh
