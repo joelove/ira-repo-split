@@ -5,7 +5,7 @@ SCRIPT_DIR=$(realpath $(dirname $0))
 
 # Configuration variables
 WORKING_DIR="/Users/joelove/Projects/antiblanks"
-REPO_NAME="ira-employee-portal-prune2"
+REPO_NAME="ira-employee-portal-prune-final"
 
 # Ensure we start in the correct directory
 cd $WORKING_DIR
@@ -39,3 +39,6 @@ git filter-branch \
 
 # Restructure repository contents
 source $SCRIPT_DIR/rewrite-path-references.sh
+
+# Add new repo and push commit history
+source $SCRIPT_DIR/commit-file-changes.sh
