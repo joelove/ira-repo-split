@@ -5,7 +5,7 @@ SCRIPT_DIR=$(realpath $(dirname $0))
 
 # Configuration variables
 WORKING_DIR="/Users/joelove/Projects/antiblanks"
-REPO_NAME="ira-employee-portal-prune"
+REPO_NAME="ira-employee-portal-prune2"
 
 # Ensure we start in the correct directory
 cd $WORKING_DIR
